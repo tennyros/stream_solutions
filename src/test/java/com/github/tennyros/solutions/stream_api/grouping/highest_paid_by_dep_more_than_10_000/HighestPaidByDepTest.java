@@ -10,7 +10,7 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SolutionTest {
+class HighestPaidByDepTest {
 
     private static List<Employee> employees;
 
@@ -29,8 +29,8 @@ class SolutionTest {
     }
 
     @Test
-    void testHighestPaidByDepartment() {
-        Map<String, String> highestPaidByDep = Solution.highestPaidByDepartment(employees);
+    void shouldReturnHighestPaidEmpByDep() {
+        Map<String, String> highestPaidByDep = HighestPaidByDep.highestPaidByDepartment(employees);
 
         assertAll(
                 () -> assertEquals("Sara", highestPaidByDep.get("Sales")),

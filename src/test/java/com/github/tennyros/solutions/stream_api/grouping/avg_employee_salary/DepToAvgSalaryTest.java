@@ -10,7 +10,7 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SolutionTest {
+class DepToAvgSalaryTest {
 
     private List<Employee> employees;
 
@@ -26,9 +26,9 @@ class SolutionTest {
     }
 
     @Test
-    void testDepartmentToAverageSalary() {
+    void shouldReturnDepToAvgSalary() {
 
-        Map<String, Double> result = Solution.departmentToAverageSalary(employees);
+        Map<String, Double> result = DepToAvgSalary.departmentToAverageSalary(employees);
 
         assertEquals(3, employees.stream().filter(e -> e.getDepartment().equals("IT")).count());
         assertEquals(2, employees.stream().filter(e -> e.getDepartment().equals("HR")).count());

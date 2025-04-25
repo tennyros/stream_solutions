@@ -10,7 +10,7 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class SolutionTest {
+class YoungestEmpByDepTest {
 
     private static List<Employee> employees;
 
@@ -33,12 +33,12 @@ class SolutionTest {
                 "Sales", "Eve"
         );
 
-        assertEquals(expected, Solution.youngestEmployeeByDepartment(employees));
+        assertEquals(expected, YoungestEmpByDep.youngestEmployeeByDepartment(employees));
     }
 
     @Test
     void shouldReturnEmptyList() {
-        assertTrue(Solution.youngestEmployeeByDepartment(List.of()).isEmpty());
+        assertTrue(YoungestEmpByDep.youngestEmployeeByDepartment(List.of()).isEmpty());
     }
 
 }
