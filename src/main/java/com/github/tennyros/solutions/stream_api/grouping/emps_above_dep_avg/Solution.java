@@ -7,10 +7,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Нужно получить имена сотрудников, чья зарплата выше средней зарплаты по их отделу.
- * Реализовать метод:
- * public static List<String> employeesAboveDepartmentAverage(List<Employee> employees)
- * Который вернёт список имён, например:
+ * Нужно получить имена сотрудников, чья зарплата выше средней зарплаты по их отделу. <br><br>
+ * Реализовать метод: <br>
+ * public static List<String> employeesAboveDepartmentAverage(List<Employee> employees) <br>
+ * Который вернёт список имён, например: <br>
  * ["John", "Home", "Smith", "Sara"]
  * */
 public class Solution {

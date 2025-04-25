@@ -7,16 +7,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Средняя зарплата среди самых опытных сотрудников по отделам
- * <br>
- * public static double averageSalaryOfTopExperiencedEmployees(List<Employee> employees, int topN)
- * <br><br>
- * Что должен делать метод:
- * <br>
- * 1) Для каждого отдела (department) выбрать topN самых опытных сотрудников (experience).
- * <br>
- * 2) Посчитать среднюю зарплату по этим topN сотрудникам в каждом отделе.
- * <br>
+ * Средняя зарплата среди самых опытных сотрудников по отделам <br>
+ * public static double averageSalaryOfTopExperiencedEmployees(List<Employee> employees, int topN) <br><br>
+ * Что должен делать метод: <br>
+ * 1) Для каждого отдела (department) выбрать topN самых опытных сотрудников (experience). <br>
+ * 2) Посчитать среднюю зарплату по этим topN сотрудникам в каждом отделе. <br>
  * 3) Вернуть общую среднюю зарплату по всем topN-сотрудникам всех отделов.
  * */
 public class Solution {

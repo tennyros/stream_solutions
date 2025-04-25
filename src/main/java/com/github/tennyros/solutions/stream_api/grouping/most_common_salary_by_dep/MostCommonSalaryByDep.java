@@ -7,16 +7,11 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Самая часто встречающаяся зарплата в каждом отделе
- * <br><br>
- * public static Map<String, Integer> mostCommonSalaryByDepartment(List<Employee> employees)
- * <br>
- * 📍 Где:
- * <br>
- * - String — название отдела
- * <br>
- * - Integer — наиболее часто встречающаяся зарплата в этом отделе
- * <br>
+ * Самая часто встречающаяся зарплата в каждом отделе <br><br>
+ * public static Map<String, Integer> mostCommonSalaryByDepartment(List<Employee> employees) <br>
+ * 📍 Где: <br>
+ * - String — название отдела <br>
+ * - Integer — наиболее часто встречающаяся зарплата в этом отделе <br>
  * (если несколько — бери наименьшую из них)
  */
 public class MostCommonSalaryByDep {

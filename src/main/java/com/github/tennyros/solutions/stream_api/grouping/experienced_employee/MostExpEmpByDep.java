@@ -1,10 +1,7 @@
 package com.github.tennyros.solutions.stream_api.grouping.experienced_employee;
 
-import com.github.tennyros.solutions.stream_api.util.Employee;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.util.Comparator;
 import java.util.List;
@@ -12,22 +9,16 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Сотрудник с наибольшим опытом в каждом департаменте
- * <br><br>
- * Условие:
- * <br>
- * У тебя есть список сотрудников List<Employee>. У каждого Employee есть:
- * <br>
- * - String name
- * <br>
- * - String department
- * <br>
- * - int yearsOfExperience
- * <br><br>
- * Нужно вернуть Map<String, String>, где ключ — это название департамента, а значение — имя самого опытного сотрудника в этом департаменте.
- * <br><br>
+ * Сотрудник с наибольшим опытом в каждом департаменте <br><br>
+ * Условие: <br>
+ * У тебя есть список сотрудников List<Employee>. У каждого Employee есть: <br>
+ * - String name <br>
+ * - String department <br>
+ * - int yearsOfExperience <br><br>
+ * Нужно вернуть Map<String, String>, где ключ — это название департамента,
+ * а значение — имя самого опытного сотрудника в этом департаменте. <br><br>
  * Если в департаменте несколько с одинаковым максимальным опытом — можно взять любого.
- * */
+ */
 public class MostExpEmpByDep {
 
     public static void main(String[] args) {

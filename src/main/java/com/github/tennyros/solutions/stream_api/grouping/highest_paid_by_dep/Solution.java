@@ -8,11 +8,11 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Нужно сгруппировать их по отделам и в каждом отделе выбрать сотрудника с самой высокой зарплатой.
- * Реализовать метод:
- * public static Map<String, String> highestPaidByDepartment(List<Employee> employees)
- * Который вернёт мапу: отдел → имя самого высокооплачиваемого сотрудника
- * Пример вывода:
+ * Нужно сгруппировать их по отделам и в каждом отделе выбрать сотрудника с самой высокой зарплатой. <br><br>
+ * Реализовать метод: <br>
+ * public static Map<String, String> highestPaidByDepartment(List<Employee> employees) <br>
+ * Который вернёт мапу: отдел → имя самого высокооплачиваемого сотрудника <br><br>
+ * Пример вывода: <br>
  * {IT=John, HR=Home, Sales=Sara}
  */
 public class Solution {

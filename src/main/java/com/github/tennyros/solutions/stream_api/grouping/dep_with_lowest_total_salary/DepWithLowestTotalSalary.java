@@ -9,16 +9,12 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Написать метод, который найдёт департамент, в котором сумма зарплат сотрудников наименьшая.
- * <br><br>
- * Требования:
- * <br>
- * На вход — List<Employee> employees.
- * <br>
- * Вернуть — String (название департамента с наименьшей суммой зарплат).
- * <br>
- * Если сотрудников нет — вернуть пустую строку.
- * <br>
+ * Написать метод, который найдёт департамент, в
+ * котором сумма зарплат сотрудников наименьшая. <br><br>
+ * Требования: <br>
+ * На вход — List<Employee> employees. <br>
+ * Вернуть — String (название департамента с наименьшей суммой зарплат). <br>
+ * Если сотрудников нет — вернуть пустую строку. <br>
  * public static String departmentWithLowestTotalSalary(List<Employee> employees)
  */
 public class DepWithLowestTotalSalary {

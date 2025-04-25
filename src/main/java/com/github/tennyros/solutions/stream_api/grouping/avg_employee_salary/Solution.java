@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Группировка сотрудников по отделу
- * У тебя есть список сотрудников List<Employee>.
+ * Группировка сотрудников по отделу <br>
+ * У тебя есть список сотрудников List<Employee>. <br>
  * Группируй сотрудников по отделу (department) и посчитай среднюю зарплату в каждом отделе.
  * */
 public class Solution {

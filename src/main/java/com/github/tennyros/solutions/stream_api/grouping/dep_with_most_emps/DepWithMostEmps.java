@@ -2,22 +2,17 @@ package com.github.tennyros.solutions.stream_api.grouping.dep_with_most_emps;
 
 import com.github.tennyros.solutions.stream_api.util.Employee;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Найти департамент с наибольшим количеством сотрудников.
- * <br><br>
- * ✅ Условия:
- * <br>
- * У тебя есть список сотрудников List<Employee>.
- * <br>
- * Каждый сотрудник имеет департамент (getDepartment()).
- * <br>
+ * Найти департамент с наибольшим количеством сотрудников. <br><br>
+ * ✅ Условия: <br>
+ * У тебя есть список сотрудников List<Employee>. <br>
+ * Каждый сотрудник имеет департамент (getDepartment()). <br>
  * Нужно определить название департамента, в котором работает больше всего сотрудников.
- * */
+ */
 public class DepWithMostEmps {
 
     public static void main(String[] args) {

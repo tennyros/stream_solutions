@@ -7,22 +7,14 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * Количество сотрудников с зарплатой выше средней по департаменту
- * <br><br>
- * Условие:
- * <br>
- * У тебя есть список сотрудников List<Employee> с полями:
- * <br>
- * - String name
- * <br>
- * - String department
- * <br>
- * - int salary
- * <br><br>
- * Нужно вернуть Map<String, Long>, где:
- * <br>
- * - ключ — название департамента,
- * <br>
+ * Количество сотрудников с зарплатой выше средней по департаменту <br><br>
+ * Условие: <br>
+ * У тебя есть список сотрудников List<Employee> с полями: <br>
+ * - String name <br>
+ * - String department <br>
+ * - int salary <br><br>
+ * Нужно вернуть Map<String, Long>, где: <br>
+ * - ключ — название департамента, <br>
  * - значение — количество сотрудников, чья зарплата выше средней по их департаменту.
  * */
 public class CountAboveAvgSalariesByDep {
