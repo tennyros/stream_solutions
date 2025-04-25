@@ -1,6 +1,5 @@
-package com.github.tennyros.solutions.stream_api.highest_paid_by_dep_more_than_10_000;
+package com.github.tennyros.solutions.stream_api.grouping.highest_paid_by_dep_more_than_10_000;
 
-import com.github.tennyros.solutions.stream_api.grouping.highest_paid_by_dep_more_than_10_000.Solution;
 import com.github.tennyros.solutions.stream_api.util.Employee;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

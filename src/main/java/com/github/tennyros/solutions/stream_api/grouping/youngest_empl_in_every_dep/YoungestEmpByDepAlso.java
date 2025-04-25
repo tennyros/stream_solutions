@@ -5,15 +5,10 @@ import com.github.tennyros.solutions.stream_api.util.Employee;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
-/**
- * Самый молодой сотрудник в каждом департаменте <br>
- * Напиши метод, который вернёт Map<String, String>, где: <br>
- * - ключ — название департамента, <br>
- * - значение — имя самого молодого сотрудника в этом департаменте.
- * */
-public class Solution {
+public class YoungestEmpByDepAlso {
 
     public static void main(String[] args) {
         List<Employee> employees = List.of(
@@ -33,7 +28,18 @@ public class Solution {
                         Employee::getDepartment,
                         Collectors.collectingAndThen(
                                 Collectors.minBy(Comparator.comparingInt(Employee::getAge)),
-                                optEmp -> optEmp.map(Employee::getName).orElse("N/A")
+                                        emp -> emp.map(Employee::getName).orElse("None")
+                        )
+                ));
+    }
+
+    public static Map<String, String> youngestEmployeeByDepartmentFlatMap(List<Employee> employees) {
+        return employees.stream()
+                .collect(Collectors.groupingBy(
+                        Employee::getDepartment,
+                        Collectors.collectingAndThen(
+                                Collectors.minBy(Comparator.comparingInt(Employee::getAge)),
+                                emp -> emp.flatMap(e -> Optional.ofNullable(e.getName())).orElse("None")
                         )
                 ));
     }

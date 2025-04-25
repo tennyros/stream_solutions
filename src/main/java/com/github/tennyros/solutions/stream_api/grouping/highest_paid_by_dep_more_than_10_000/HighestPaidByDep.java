@@ -12,22 +12,7 @@ import java.util.stream.Collectors;
  * но только если его зарплата больше 10_000. <br>
  * Вернуть Map<Отдел, Имя сотрудника>.
  */
-public class Solution {
-
-    public static void main(String[] args) {
-        List<Employee> employees = List.of(
-                new Employee("John", "IT", 10_500),
-                new Employee("Jane", "IT", 9_250),
-                new Employee("Jessy", "IT", 8_700),
-                new Employee("Base", "HR", 7_700),
-                new Employee("Home", "HR", 10_700),
-                new Employee("Smith", "Sales", 11_000),
-                new Employee("Sam", "Sales", 9_000),
-                new Employee("Sara", "Sales", 13_000)
-        );
-
-        System.out.println(highestPaidByDepartment(employees));
-    }
+public class HighestPaidByDep {
 
     public static Map<String, String> highestPaidByDepartment(List<Employee> employees) {
         return employees.stream()

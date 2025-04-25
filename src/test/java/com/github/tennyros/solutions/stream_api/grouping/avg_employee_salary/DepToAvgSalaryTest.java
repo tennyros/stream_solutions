@@ -1,6 +1,5 @@
-package com.github.tennyros.solutions.stream_api.avg_employee_salary;
+package com.github.tennyros.solutions.stream_api.grouping.avg_employee_salary;
 
-import com.github.tennyros.solutions.stream_api.grouping.avg_employee_salary.Solution;
 import com.github.tennyros.solutions.stream_api.util.Employee;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
