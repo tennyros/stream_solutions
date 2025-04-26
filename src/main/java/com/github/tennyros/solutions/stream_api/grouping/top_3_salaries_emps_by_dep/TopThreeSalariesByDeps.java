@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
  * - значение — список имён сотрудников с топ-3 зарплатами в этом департаменте. <br><br>
  * Пример: <br>
  * Если в департаменте "IT" есть 5 сотрудников, то в значение попадут только 3 с наибольшими зарплатами (или меньше, если людей меньше).
- * */
+ */
 public class TopThreeSalariesByDeps {
 
     public static void main(String[] args) {

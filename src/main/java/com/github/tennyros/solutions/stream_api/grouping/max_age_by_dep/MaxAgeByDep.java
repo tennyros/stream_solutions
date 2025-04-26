@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  * Условие: <br>
  * Найдите самого пожилого сотрудника в каждом отделе. <br>
  * Верните Map, где ключ — название отдела, а значение — максимальный возраст сотрудника в этом отделе.
- * */
+ */
 public class MaxAgeByDep {
 
     public static void main(String[] args) {

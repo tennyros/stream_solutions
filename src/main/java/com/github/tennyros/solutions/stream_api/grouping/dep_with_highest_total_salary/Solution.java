@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  * - salary (int) <br><br>
  * 📤 Выход: <br>
  * String: название департамента с наибольшей суммой зарплат
- * */
+ */
 public class Solution {
 
     public static void main(String[] args) {

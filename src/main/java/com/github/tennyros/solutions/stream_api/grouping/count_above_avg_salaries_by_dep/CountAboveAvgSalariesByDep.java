@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
  * Нужно вернуть Map<String, Long>, где: <br>
  * - ключ — название департамента, <br>
  * - значение — количество сотрудников, чья зарплата выше средней по их департаменту.
- * */
+ */
 public class CountAboveAvgSalariesByDep {
 
     public static void main(String[] args) {

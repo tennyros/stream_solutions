@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
  * Метод должен принимать список сотрудников и возвращать Map<String, Employee>,
  * где ключом будет название департамента, а значением — объект
  * сотрудника с наибольшей зарплатой в этом департаменте.
- * */
+ */
 public class HighestPaidByDebEmp {
 
     public static void main(String[] args) {

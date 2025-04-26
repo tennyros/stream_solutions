@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * Условие:<br>
  * Посчитайте количество сотрудников в каждом департаменте. Верните Map, где
  * ключ — это название департамента, а значение — количество сотрудников в нём.
- * */
+ */
 public class EmpCountByDep {
 
     public static Map<String, Long> employeeCountByDepartment(List<Employee> employees) {

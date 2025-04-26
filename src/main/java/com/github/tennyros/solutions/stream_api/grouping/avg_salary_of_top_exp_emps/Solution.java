@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  * 1) Для каждого отдела (department) выбрать topN самых опытных сотрудников (experience). <br>
  * 2) Посчитать среднюю зарплату по этим topN сотрудникам в каждом отделе. <br>
  * 3) Вернуть общую среднюю зарплату по всем topN-сотрудникам всех отделов.
- * */
+ */
 public class Solution {
 
     public static void main(String[] args) {

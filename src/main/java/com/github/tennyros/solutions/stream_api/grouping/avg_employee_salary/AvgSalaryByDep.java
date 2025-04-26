@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * Условие: <br>
  * Необходимо посчитать среднюю зарплату для каждого департамента.
  * Используйте стримы для подсчета средней зарплаты по каждому департаменту.
- * */
+ */
 public class AvgSalaryByDep {
 
     public static Map<String, Double> averageSalaryByDepartment(List<Employee> employees) {

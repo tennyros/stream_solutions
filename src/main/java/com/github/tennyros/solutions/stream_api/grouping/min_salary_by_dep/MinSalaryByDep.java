@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
  * Напишите метод, который возвращает Map, где ключ — название отдела,
  * а значение — минимальная зарплата среди всех сотрудников этого отдела. <br>
  * Если сотрудников нет, метод должен вернуть пустую карту.
- * */
+ */
 public class MinSalaryByDep {
 
     public static Map<String, Integer> minSalaryByDepartment(List<Employee> employees) {

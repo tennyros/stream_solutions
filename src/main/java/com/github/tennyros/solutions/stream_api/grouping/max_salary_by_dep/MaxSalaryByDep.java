@@ -14,10 +14,12 @@ import java.util.stream.Collectors;
  * Напишите метод, который находит максимальную зарплату в каждом отделе.
  * То есть для каждого отдела нужно определить максимальное
  * значение поля salary среди всех сотрудников этого отдела.
- * */
-public class MaxSalaryByDep {
+ */
+public final class MaxSalaryByDep {
 
-    private MaxSalaryByDep() {}
+    private MaxSalaryByDep() {
+        throw new UnsupportedOperationException("Utility class");
+    }
 
     public static Map<String, Integer> maxSalaryByDepartment(List<Employee> employees) {
         return employees.stream()

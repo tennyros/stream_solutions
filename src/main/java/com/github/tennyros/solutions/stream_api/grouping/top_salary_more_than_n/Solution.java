@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 /**
  * Найти департаменты, в которых есть хотя бы один сотрудник с зарплатой выше N. <br>
  * Требуется: Вернуть List<String> — названия департаментов, в которых есть хотя бы один сотрудник с зарплатой выше заданного threshold.
- * */
+ */
 public class Solution {
 
     public static void main(String[] args) {

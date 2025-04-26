@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * public static List<String> employeesAboveDepartmentAverage(List<Employee> employees) <br>
  * Который вернёт список имён, например: <br>
  * ["John", "Home", "Smith", "Sara"]
- * */
+ */
 public class Solution {
 
     public static void main(String[] args) {

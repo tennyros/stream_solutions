@@ -2,7 +2,6 @@ package com.github.tennyros.solutions.stream_api.grouping.dep_with_lowest_avg_sa
 
 import com.github.tennyros.solutions.stream_api.util.Employee;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;

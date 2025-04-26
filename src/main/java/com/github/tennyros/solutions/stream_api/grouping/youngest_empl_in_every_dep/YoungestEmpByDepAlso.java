@@ -28,7 +28,7 @@ public class YoungestEmpByDepAlso {
                         Employee::getDepartment,
                         Collectors.collectingAndThen(
                                 Collectors.minBy(Comparator.comparingInt(Employee::getAge)),
-                                        emp -> emp.map(Employee::getName).orElse("None")
+                                emp -> emp.map(Employee::getName).orElse("None")
                         )
                 ));
     }

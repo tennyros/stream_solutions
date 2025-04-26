@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-
 public final class YoungestEmpByDep {
 
     private YoungestEmpByDep() {
@@ -22,7 +21,7 @@ public final class YoungestEmpByDep {
      *
      * @param employees список сотрудников
      * @return карта вида Map<департамент, имя самого молодого сотрудника>
-     * */
+     */
     public static Map<String, String> youngestEmployeeByDepartment(List<Employee> employees) {
         return employees.stream()
                 .collect(Collectors.groupingBy(
